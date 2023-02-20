@@ -6,11 +6,12 @@ class Solution {
         int answer = 0;
 
         for(String bab : babbling){
-            for(String str : babblingArray) {
-                bab = bab.replaceFirst(str, " ");
+            for(String str : babblingArray){
+                bab = bab.replaceFirst(str," ");
             }
-            if(bab.replaceAll(" ","").equals("")) answer++;
+            if(bab.replaceAll("","").equals("")) answer++;
         }
+
 
         return answer;
     }
