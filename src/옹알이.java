@@ -1,6 +1,6 @@
 class Solution {
 
-    public static String[] babblingArray = {"aya", "ye", "woo", "ma"};
+    public static String[] babblingArray = {"aya", "yes", "woo", "ma"};
 
     public int solution(String[] babbling) {
         int answer = 0;
